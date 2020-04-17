@@ -34,8 +34,8 @@ def sorted_matrix
   sorted_matrix = {}
   con_pro = CONVENTIONAL_PRODUCE.sort
   org_pro = ORGANIC_PRODUCE.sort
-  sorted_matrix = sorted_matrix.push(con_pro)
-  sorted_matrix = sorted_matrix.push(org_pro)
+  sorted_matrix.push(con_pro)
+  sorted_matrix.push(org_pro)
   sorted_matrix
 end
 
