@@ -24,7 +24,6 @@ def assembled_matrix
   assembled_matrix = Array.new
   assembled_matrix = assembled_matrix.push(CONVENTIONAL_PRODUCE)
   assembled_matrix = assembled_matrix.push(ORGANIC_PRODUCE)
- # binding.pry
   assembled_matrix
 end
 
@@ -37,6 +36,7 @@ def sorted_matrix
   org_pro = ORGANIC_PRODUCE.sort
   sorted_matrix.push(con_pro)
   sorted_matrix.push(org_pro)
+  binding.pry
   sorted_matrix
 end
 
