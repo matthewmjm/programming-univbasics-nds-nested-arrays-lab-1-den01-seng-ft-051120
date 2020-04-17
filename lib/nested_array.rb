@@ -32,8 +32,12 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   sorted_matrix = {}
-  sorted_matrix = sorted_matrix.push(CONVENTIONAL_PRODUCE.sort)
-  sorted_matrix = sorted_matrix.push(ORGANIC_PRODUCE.sort)
+  con_pro = {}
+  org_pro = {}
+  con_pro = CONVENTIONAL_PRODUCE.sort
+  org_pro = ORGANIC_PRODUCE.sort
+  sorted_matrix = sorted_matrix.push(con_pro)
+  sorted_matrix = sorted_matrix.push(org_pro)
   sorted_matrix
 end
 
