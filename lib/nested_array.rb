@@ -34,6 +34,7 @@ def sorted_matrix
   sorted_matrix = {}
   sorted_matrix = sorted_matrix.push(CONVENTIONAL_PRODUCE.sorted)
   sorted_matrix = sorted_matrix.push(ORGANIC_PRODUCE.sorted)
+  sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
