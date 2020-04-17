@@ -24,6 +24,7 @@ def assembled_matrix
   assembled_matrix = Array.new
   assembled_matrix = assembled_matrix.push(CONVENTIONAL_PRODUCE)
   assembled_matrix = assembled_matrix.push(ORGANIC_PRODUCE)
+  binding.pry
   assembled_matrix
 end
 
